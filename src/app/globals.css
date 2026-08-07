@@ -1,0 +1,5 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base { * { @apply border-plum/10; } body { @apply bg-ivory text-plum font-sans; } h1,h2,h3 { @apply font-display; } }
+@layer components { .shell { @apply mx-auto max-w-7xl px-5 sm:px-8; } .eyebrow { @apply text-xs font-semibold uppercase tracking-[.2em] text-wine; } .btn { @apply inline-flex items-center justify-center rounded-full px-6 py-3 text-sm font-semibold transition duration-200; } .btn-primary { @apply btn bg-plum text-ivory hover:bg-wine; } .btn-secondary { @apply btn border border-plum/30 bg-ivory hover:bg-cream; } }
